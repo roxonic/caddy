@@ -8,6 +8,7 @@ name: Build & Push to GitHub Packages
 on:
   push:
     tags: [ 'v*.*.*' ]
+  workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
 
 env:
   # Use docker.io for Docker Hub if empty
