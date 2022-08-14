@@ -8,6 +8,7 @@ name: Build & Push to Docker Hub
 on:
   push:
     tags: [ 'v*.*.*' ]
+  workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
     
 env:
   DOCKER_CONTAINER_NAME: caddy
