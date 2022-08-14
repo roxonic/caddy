@@ -6,8 +6,8 @@ name: Build & Push to GitHub Packages
 # documentation.
 
 on:
-  push:
-    tags: [ 'v*.*.*' ]
+#  push:
+#    tags: [ 'v*.*.*' ]
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
 
 env:
